@@ -1,0 +1,33 @@
+
+.main{
+    /* background-color: tomato; */
+    display: grid;
+      grid-template-rows: repeat(2,140px);
+    grid-template-columns:repeat(2,25%) ;
+  
+    
+    /* grid-template-areas: 
+    " header header header header"
+    "min min  . sud"
+    "fooder fooder fooder fooder"
+    ; */
+    height: 100vh;
+    gap: 17px 13px ;
+
+}
+.header{
+    
+    background-color: rgb(46, 176, 176);
+}
+.min{
+     
+    background-color: rgb(148, 135, 96);
+}
+.sud{
+     
+    background-color: rgb(154, 134, 137);
+}
+.fooder{
+    
+    background-color: rgb(56, 55, 57);
+}
